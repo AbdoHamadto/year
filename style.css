@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    background-color: #333;
+    color: whitesmoke;
+}
+
+h1 {
+    margin: 40px 0px;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+form .num {
+    outline: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #121212;
+    color: whitesmoke;
+}
+
+form .num::placeholder {
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.newAge {
+    margin-top: 50px;
+}
+
+.newAge table {
+    width: 600px;
+    height: 150px;
+    margin: 15px;
+    align-self: center;
+}
+
+
+
+.newAge table tr {
+    font-size: 30px;
+}
+.newAge table td {
+    padding: 5px;
+    background-color: #121212;
+    border-radius: 5px;
+}
+
+.newAge table .all {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 35px;
+    }
+    .newAge table {
+        width: 300px;
+        height: 150px;
+        align-self: center;
+    }
+}
+
+
